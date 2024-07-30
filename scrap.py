@@ -141,8 +141,6 @@ if __name__ == '__main__':
                     time.sleep(.5)
                     save_downloaded_file_to(destination_dir=subject_name, filename=filename, indexer=idx)
 
-                break
-
             load_semester(driver, semester)
     
     
