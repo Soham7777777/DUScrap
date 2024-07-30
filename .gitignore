@@ -1,0 +1,27 @@
+.venv/
+pyenv/
+
+*.pyc
+__pycache__/
+.mypy_cache
+*_cache
+
+instance/secrets.json
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
+
+.vscode
+*.db
+*.sqlite
+
+# for experimenting with code, writing notes etc...
+temp.*
+temp_*
+
+credentials.json
